@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<index version="1" name="HPRSSN">
+  <category name="Extensions">
+    <reapack name="reaper_hidden-vkb.ext" type="extension" desc="HPRSSN Hidden VKB — REAPER/Ableton Layout, Exclusive Arm & Solo, etc">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 HPRSSN Hidden VKB\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 A REAPER extension that turns your computer keyboard into a MIDI keyboard \u8212— like the built-in VKB, but without the window.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs28 Features\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Two keyboard layouts: REAPER (default) and Ableton\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Octave/velocity overlay anchored to the REAPER window\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Exclusive Arm \u8212— arming a track disarms the rest\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Exclusive Solo \u8212— soloing a track unsolos the rest\sa180\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0.0" author="HYPRESSION" time="2026-03-15T04:06:30Z">
+        <changelog><![CDATA[Hidden virtual MIDI keyboard — like VKB, but without the window
+REAPER and Ableton keyboard layouts
+Octave/velocity overlay
+Exclusive Arm and Exclusive Solo]]></changelog>
+        <source platform="darwin-arm64" file="reaper_hidden-vkb-arm64.dylib">https://github.com/hypressi0n/hprssn-reapack/releases/download/v1.0.0/reaper_hidden-vkb-arm64.dylib</source>
+        <source platform="darwin64" file="reaper_hidden-vkb-x86_64.dylib">https://github.com/hypressi0n/hprssn-reapack/releases/download/v1.0.0/reaper_hidden-vkb-x86_64.dylib</source>
+        <source platform="linux64" file="reaper_hidden-vkb-x64.so">https://github.com/hypressi0n/hprssn-reapack/releases/download/v1.0.0/reaper_hidden-vkb-x64.so</source>
+        <source platform="linux-aarch64" file="reaper_hidden-vkb-aarch64.so">https://github.com/hypressi0n/hprssn-reapack/releases/download/v1.0.0/reaper_hidden-vkb-aarch64.so</source>
+        <source platform="win64" file="reaper_hidden-vkb-x64.dll">https://github.com/hypressi0n/hprssn-reapack/releases/download/v1.0.0/reaper_hidden-vkb-x64.dll</source>
+        <source platform="win-arm64" file="reaper_hidden-vkb-arm64.dll">https://github.com/hypressi0n/hprssn-reapack/releases/download/v1.0.0/reaper_hidden-vkb-arm64.dll</source>
+      </version>
+    </reapack>
+  </category>
+</index>
