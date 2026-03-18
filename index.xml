@@ -29,6 +29,18 @@ Exclusive Arm and Exclusive Solo]]></changelog>
         <source platform="win64" file="reaper_hidden-vkb-x64.dll">https://github.com/hypressi0n/hprssn-reapack/releases/download/v1.0.0/reaper_hidden-vkb-x64.dll</source>
         <source platform="win-arm64" file="reaper_hidden-vkb-arm64.dll">https://github.com/hypressi0n/hprssn-reapack/releases/download/v1.0.0/reaper_hidden-vkb-arm64.dll</source>
       </version>
+      <version name="1.0.1" author="HYPRESSION" time="2026-03-18T03:13:30Z">
+        <changelog><![CDATA[Added "Block single-key shortcuts outside of VKB layout" action to prevent unintended shortcuts while playing
+Fixed text input not working in Media Explorer and Add FX search fields on Linux
+Fixed exclusive-arm incorrectly triggering on auto-recarm tracks
+Fixed auto-recarm flag being lost when ExclusiveArm disarms tracks]]></changelog>
+        <source platform="darwin-arm64" file="reaper_hidden-vkb-arm64.dylib">https://github.com/hypressi0n/hprssn-reapack/releases/download/v1.0.1/reaper_hidden-vkb-arm64.dylib</source>
+        <source platform="darwin64" file="reaper_hidden-vkb-x86_64.dylib">https://github.com/hypressi0n/hprssn-reapack/releases/download/v1.0.1/reaper_hidden-vkb-x86_64.dylib</source>
+        <source platform="linux64" file="reaper_hidden-vkb-x64.so">https://github.com/hypressi0n/hprssn-reapack/releases/download/v1.0.1/reaper_hidden-vkb-x64.so</source>
+        <source platform="linux-aarch64" file="reaper_hidden-vkb-aarch64.so">https://github.com/hypressi0n/hprssn-reapack/releases/download/v1.0.1/reaper_hidden-vkb-aarch64.so</source>
+        <source platform="win64" file="reaper_hidden-vkb-x64.dll">https://github.com/hypressi0n/hprssn-reapack/releases/download/v1.0.1/reaper_hidden-vkb-x64.dll</source>
+        <source platform="win-arm64" file="reaper_hidden-vkb-arm64.dll">https://github.com/hypressi0n/hprssn-reapack/releases/download/v1.0.1/reaper_hidden-vkb-arm64.dll</source>
+      </version>
     </reapack>
   </category>
 </index>
