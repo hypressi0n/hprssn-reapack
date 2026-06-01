@@ -52,6 +52,15 @@ Fixed auto-recarm flag being lost when ExclusiveArm disarms tracks]]></changelog
         <source platform="win64" file="reaper_hidden-vkb-x64.dll">https://github.com/hypressi0n/hprssn-reapack/releases/download/v1.0.2/reaper_hidden-vkb-x64.dll</source>
         <source platform="win-arm64" file="reaper_hidden-vkb-arm64.dll">https://github.com/hypressi0n/hprssn-reapack/releases/download/v1.0.2/reaper_hidden-vkb-arm64.dll</source>
       </version>
+      <version name="1.0.3" author="HYPRESSION" time="2026-06-01T23:17:55Z">
+        <changelog><![CDATA[- Fixed global-scope shortcuts firing the action instead of playing a note]]></changelog>
+        <source platform="darwin-arm64" file="reaper_hidden-vkb-arm64.dylib">https://github.com/hypressi0n/hprssn-reapack/releases/download/v1.0.3/reaper_hidden-vkb-arm64.dylib</source>
+        <source platform="darwin64" file="reaper_hidden-vkb-x86_64.dylib">https://github.com/hypressi0n/hprssn-reapack/releases/download/v1.0.3/reaper_hidden-vkb-x86_64.dylib</source>
+        <source platform="linux64" file="reaper_hidden-vkb-x64.so">https://github.com/hypressi0n/hprssn-reapack/releases/download/v1.0.3/reaper_hidden-vkb-x64.so</source>
+        <source platform="linux-aarch64" file="reaper_hidden-vkb-aarch64.so">https://github.com/hypressi0n/hprssn-reapack/releases/download/v1.0.3/reaper_hidden-vkb-aarch64.so</source>
+        <source platform="win64" file="reaper_hidden-vkb-x64.dll">https://github.com/hypressi0n/hprssn-reapack/releases/download/v1.0.3/reaper_hidden-vkb-x64.dll</source>
+        <source platform="win-arm64" file="reaper_hidden-vkb-arm64.dll">https://github.com/hypressi0n/hprssn-reapack/releases/download/v1.0.3/reaper_hidden-vkb-arm64.dll</source>
+      </version>
     </reapack>
   </category>
 </index>
